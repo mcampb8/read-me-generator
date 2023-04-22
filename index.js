@@ -101,6 +101,6 @@ ${data.tests}
 [Email](mailto:${data.email})
 [Github](https://www.github.com/${data.github})
 `
-        fs.writeFile("README-1.md", readMeStr, (err) =>
+        fs.writeFile("README.md", readMeStr, (err) =>
             err ? console.log(err) : console.log('Success!'));
     })
